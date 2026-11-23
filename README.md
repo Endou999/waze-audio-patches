@@ -4,7 +4,7 @@ Patches for use with Morphe that add a music app of your choice (default: myspot
 Waze audio player, without the app needing the Waze SDK.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.1](https://github.com/Endou999/waze-audio-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.0.0-dev.2](https://github.com/Endou999/waze-audio-patches/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 Waze&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
@@ -18,7 +18,7 @@ Waze audio player, without the app needing the Waze SDK.
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Add custom audio app](#add-custom-audio-app) | Adds one or more music apps of your choice to the Waze audio player. Waze controls them through their standard Android media service, without the apps needing the Waze SDK. | • Custom audio apps |
+| [Add custom audio app](#add-custom-audio-app) | Automatically discovers all installed music apps supporting Android's MediaBrowserService (as used by Android Auto) and adds them to the Waze audio player. |  |
 | [GmsCore support](#gmscore-support) | Uses GmsCore (app.revanced.android.gms) instead of Google Play Services, so Google sign-in and other Google services work in the re-signed app. GmsCore must be installed. |  |
 
 </details>

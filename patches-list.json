@@ -1,10 +1,10 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "patches": [
     {
       "name": "Add custom audio app",
-      "description": "Adds one or more music apps of your choice to the Waze audio player. Waze controls them through their standard Android media service, without the apps needing the Waze SDK.",
+      "description": "Automatically discovers all installed music apps supporting Android's MediaBrowserService (as used by Android Auto) and adds them to the Waze audio player.",
       "default": true,
       "category": null,
       "compatiblePackages": [
@@ -41,17 +41,7 @@
           ]
         }
       ],
-      "options": [
-        {
-          "key": "customAudioApps",
-          "title": "Custom audio apps",
-          "description": "Comma-separated list of packageName:DisplayName entries to add to the Waze audio player (e.g. app.symfonik.music.player:Symfonium,app.myspoti.stable:myspoti). Each app must have a MediaBrowserService, as used by Android Auto.",
-          "required": true,
-          "type": "kotlin.String",
-          "default": "app.symfonik.music.player:Symfonium",
-          "values": null
-        }
-      ]
+      "options": []
     },
     {
       "name": "GmsCore support",

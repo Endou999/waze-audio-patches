@@ -1,3 +1,13 @@
+## [1.0.0-dev.2](https://github.com/Endou999/waze-audio-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-11-23)
+
+### ✨ New Features
+
+* auto-detect all installed MediaBrowserService music apps in Waze ([7858961](https://github.com/Endou999/waze-audio-patches/commit/7858961ef21db7064944d2352a48b79dba300320))
+
+### 🐛 Bug Fixes
+
+* add minimal AndroidManifest.xml for Waze audio extension ([bef1f29](https://github.com/Endou999/waze-audio-patches/commit/bef1f2975358b66fca12319fdcd5750da0b3a8ef))
+
 ## 1.0.0-dev.1 (2026-11-23)
 
 ### ✨ New Features
