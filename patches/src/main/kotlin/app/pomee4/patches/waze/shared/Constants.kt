@@ -14,6 +14,7 @@ object Constants {
         targets = listOf(
             // Version the patch was developed against.
             AppTarget(version = "5.26.5.0"),
+            AppTarget(version = "5.27.5.0"),
             // The Waze audio SDK code has been stable for a long time, so newer versions likely work.
             AppTarget(version = null, isExperimental = true),
         )

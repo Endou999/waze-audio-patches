@@ -2,12 +2,12 @@ group = "app.pomee4"
 
 patches {
     about {
-        name = "pomee4 Waze audio patches"
+        name = "Endou999 Waze audio patches (fork of pomee4)"
         description = "Adds a custom music app to the Waze audio player"
-        source = "git@github.com:pomee4/waze-audio-patches.git"
+        source = "https://github.com/Endou999/waze-audio-patches.git"
         author = "pomee4"
         contact = "na"
-        website = "https://github.com/pomee4/waze-audio-patches"
+        website = "https://github.com/Endou999/waze-audio-patches"
         license = "GPLv3"
     }
 }
