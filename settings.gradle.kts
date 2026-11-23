@@ -19,11 +19,3 @@ pluginManagement {
 plugins {
     id("app.morphe.patches") version "2.1.0"
 }
-
-
-settings {
-    extensions {
-        // No extension (runtime Java) code is needed by these patches.
-        projectsPath = null
-    }
-}

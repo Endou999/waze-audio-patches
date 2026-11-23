@@ -132,3 +132,11 @@ internal object RegisterAudioPartnerFingerprint : Fingerprint(
         ),
     )
 )
+
+
+internal object WazeApplicationCreateFingerprint : Fingerprint(
+    definingClass = "Lcom/waze/mobile/WazeMobileApplication;",
+    name = "onCreate",
+    returnType = "V",
+    parameters = emptyList(),
+)
